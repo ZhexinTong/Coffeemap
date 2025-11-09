@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Fav",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Sightglass Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.4084543, 37.7770356, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "The Crown: Royal Coffee Lab & Tasting Room" }, "geometry": { "type": "Point", "coordinates": [ -122.2651488, 37.8144975, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Devoción" }, "geometry": { "type": "Point", "coordinates": [ -73.989113, 40.739111, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "KOFFEE MAMEYA (K11 MUSEA)" }, "geometry": { "type": "Point", "coordinates": [ 114.1745832, 22.2943478, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Glitch Coffee and Roasters GINZA" }, "geometry": { "type": "Point", "coordinates": [ 139.7686324, 35.6689171, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Saint Frank Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3914176, 37.7899754, 0.0 ] } }
+]
+}

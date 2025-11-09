@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"name": "Yeee",
+"features": [
+{ "type": "Feature", "properties": { "Name": "CoRo Coffee Room" }, "geometry": { "type": "Point", "coordinates": [ -122.2972583, 37.8625, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "modern coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.2736951, 37.8048569, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Artís Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3009042, 37.8715934, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "MY Coffee Roastery" }, "geometry": { "type": "Point", "coordinates": [ -122.2731315, 37.8707119, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "SIGNAL Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.282391, 37.8913733, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Blue Bottle Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3939851, 37.7961181, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Temple Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -121.7393996, 38.5447331, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "35 North Coffee" }, "geometry": { "type": "Point", "coordinates": [ -105.9390983, 35.6868433, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Red Bay Coffee Headquarters & Cafe" }, "geometry": { "type": "Point", "coordinates": [ -122.225901, 37.777945, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Kaigo Coffee Room" }, "geometry": { "type": "Point", "coordinates": [ -74.0005181, 40.7186754, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Devoción" }, "geometry": { "type": "Point", "coordinates": [ -73.9715748, 40.757996, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Four Barrel Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.4217806, 37.7670234, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Red Bay Coffee Ferry Building" }, "geometry": { "type": "Point", "coordinates": [ -122.3931881, 37.7956605, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Old World Coffee Lab - Midtown" }, "geometry": { "type": "Point", "coordinates": [ -119.811687, 39.5199323, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Hyperion Coffee Co - Ann Arbor" }, "geometry": { "type": "Point", "coordinates": [ -83.749192, 42.2794297, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Café Hagen (Café and Roastery)" }, "geometry": { "type": "Point", "coordinates": [ -122.3473877, 47.6263905, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Milstead & Co." }, "geometry": { "type": "Point", "coordinates": [ -122.347602, 47.6494077, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Home Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.4058748, 37.7912579, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "WEEKENDERS COFFEE TOMINOKOJI" }, "geometry": { "type": "Point", "coordinates": [ 135.7644831, 35.0067836, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Go Go Coffee" }, "geometry": { "type": "Point", "coordinates": [ 135.733437, 35.0387386, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Highwire Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.2094856, 37.826439, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Temple Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -121.4724262, 38.5639177, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Temple Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -121.4951001, 38.5803227, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Plata Coffee" }, "geometry": { "type": "Point", "coordinates": [ -106.6670644, 35.1014384, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Highwire Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.2518515, 37.8436036, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "The Coffee Movement" }, "geometry": { "type": "Point", "coordinates": [ -122.4102942, 37.7947671, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Brewja Coffee, Inc" }, "geometry": { "type": "Point", "coordinates": [ -122.2702899, 37.803843, 0.0 ] } }
+]
+}

@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"name": "Nah",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Sodoi Coffee Tasting House" }, "geometry": { "type": "Point", "coordinates": [ -122.2595332, 37.8673991, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Yali's Café" }, "geometry": { "type": "Point", "coordinates": [ -122.266408, 37.8734782, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Andytown Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.5023147, 37.7566712, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Henry's House of Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.4812254, 37.7542002, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Golden Goat Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3942944, 37.780456, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Not Latte" }, "geometry": { "type": "Point", "coordinates": [ -122.4644038, 37.7846418, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Castro Coffee Company" }, "geometry": { "type": "Point", "coordinates": [ -122.4349405, 37.7621105, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "The Musical Offering Cafe~Bistro" }, "geometry": { "type": "Point", "coordinates": [ -122.2607224, 37.8683124, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Romeo's Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.2583183, 37.8653355, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Chromatic Coffee Co." }, "geometry": { "type": "Point", "coordinates": [ -121.9080674, 37.3207416, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Damask Rose" }, "geometry": { "type": "Point", "coordinates": [ -122.26587, 37.851752, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Big House Beans" }, "geometry": { "type": "Point", "coordinates": [ -122.2627309, 37.8345923, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Berkeley Espresso" }, "geometry": { "type": "Point", "coordinates": [ -122.2688198, 37.873727, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "DAMNFiNE Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.5054067, 37.7603345, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Brasil Kiss Coffeebar" }, "geometry": { "type": "Point", "coordinates": [ -118.2624724, 34.0517269, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Happy Cup Coffee Bar" }, "geometry": { "type": "Point", "coordinates": [ -122.6598675, 45.5237417, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Blue Bottle Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.2676333, 37.8720889, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Awaken Cafe & Roasting" }, "geometry": { "type": "Point", "coordinates": [ -122.2708464, 37.805308, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Anchorhead Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3347638, 47.6134003, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Caffe Umbria" }, "geometry": { "type": "Point", "coordinates": [ -122.3411532, 47.6298568, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Dazbog Coffee" }, "geometry": { "type": "Point", "coordinates": [ -104.671366, 39.8631498, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Timeless Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.2670606, 37.805901, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "La Fontaine" }, "geometry": { "type": "Point", "coordinates": [ 134.8966005, 35.6066115, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Cole Coffee Café" }, "geometry": { "type": "Point", "coordinates": [ -122.2525058, 37.8502346, 0.0 ] } }
+]
+}

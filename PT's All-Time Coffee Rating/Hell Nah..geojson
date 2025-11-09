@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Hell Nah",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Farley's Cafe" }, "geometry": { "type": "Point", "coordinates": [ -122.2127992, 37.7114584, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "V&A Cafe" }, "geometry": { "type": "Point", "coordinates": [ -122.2590054, 37.875332, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "HITW Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.4080889, 37.8007, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Caffè Strada" }, "geometry": { "type": "Point", "coordinates": [ -122.254859, 37.869146, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "1951 Coffee Company" }, "geometry": { "type": "Point", "coordinates": [ -122.2599786, 37.8666433, 0.0 ] } }
+]
+}
