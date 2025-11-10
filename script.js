@@ -8,11 +8,11 @@ const map = new mapboxgl.Map({
 
 map.on('load', function() {
   const layers = [
-    { id: 'fav',      file: 'pt-coffee-ratings/fav.geojson',      color: '#2ecc71' }, // green
-    { id: 'yeee',     file: 'pt-coffee-ratings/yeee.geojson',     color: '#3498db' }, // blue
-    { id: 'meh',      file: 'pt-coffee-ratings/meh.geojson',      color: '#f1c40f' }, // yellow
-    { id: 'nah',      file: 'pt-coffee-ratings/nah.geojson',      color: '#e67e22' }, // orange
-    { id: 'hellnah',  file: 'pt-coffee-ratings/hell-nah.geojson', color: '#e74c3c' }  // red
+    { id: 'fav',      file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/fav.geojson',      color: '#2ecc71' }, // green
+    { id: 'yeee',     file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/yeee.geojson',     color: '#3498db' }, // blue
+    { id: 'meh',      file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/meh.geojson',      color: '#f1c40f' }, // yellow
+    { id: 'nah',      file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/nah.geojson',      color: '#e67e22' }, // orange
+    { id: 'hellnah',  file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/hell-nah.geojson', color: '#e74c3c' }  // red
   ];
 
   // loop through each layer to add it to the map
@@ -29,33 +29,38 @@ map.on('load', function() {
       paint: {
         'circle-radius': 6,
         'circle-color': color,
-        'circle-stroke-color': '#ffffff',
+        'circle-stroke-color': '#fff',
         'circle-stroke-width': 1
       },
       layout: {
         visibility: 'visible'
       }
     });
-  });
 
-
-  map.on('click', 'points-layer', (e) => {
-      // Copy coordinates array
+    // Add click event for popups
+    map.on('click', 'points-layer', (e) => {
       const coordinates = e.features[0].geometry.coordinates.slice();
       const properties = e.features[0].properties;
 
       // Create popup content using the actual data properties
       const popupContent = `
-        <div>
-          <h3>${properties.name}</h3>
-          ${properties["Addresses"] ? `<p><strong>Address:</strong> ${properties["Addresses"]}</p>` : ''}
-          ${properties["City "] ? `<p><strong>City:</strong> ${properties["City "]}</p>` : ''}
-          ${properties.website ? `<p><a href="${properties.website}" target="_blank">Website</a></p>` : ''}
-          ${properties.hyperlink ? `<p><a href="${properties.hyperlink}" target="_blank">View on Google Maps</a></p>` : ''}
-          ${properties.description ? `<p><strong>Notes:</strong> ${properties.description}</p>` : ''}
-        </div>
-      `;
-      // Adding the pop up to the map
+      <div>
+        <h3>${properties.name || properties.Name || 'Unnamed location'}</h3>
+        ${properties.Addresses ? `<p><strong>Address:</strong> ${properties.Addresses}</p>` : ''}
+        ${properties.City ? `<p><strong>City:</strong> ${properties.City}</p>` : ''}
+        ${properties.website ? `<p><strong>Website:</strong> <a href="${properties.website}" target="_blank">${properties.website}</a></p>` : ''}
+        ${properties.hyperlink ? `<p><a href="${properties.hyperlink}" target="_blank">Open in Google</a></p>` : ''}
+        ${!properties.Addresses && !properties.City && !properties.website && !properties.hyperlink ? '<p>No additional info available.</p>' : ''}
+      </div>
+    `;    
 
- });
+    new mapboxgl.Popup()
+    .setLngLat(coordinates)
+    .setHTML(popupContent)
+    .addTo(map);
+     
+    });
+
+  });
+
 });
