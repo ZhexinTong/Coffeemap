@@ -8,11 +8,11 @@ const map = new mapboxgl.Map({
 
 map.on('load', function() {
   const layers = [
-    { id: 'fav',      file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/fav.geojson',      color: '#2ecc71' }, // green
-    { id: 'yeee',     file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/yeee.geojson',     color: '#3498db' }, // blue
-    { id: 'meh',      file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/meh.geojson',      color: '#f1c40f' }, // yellow
-    { id: 'nah',      file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/nah.geojson',      color: '#e67e22' }, // orange
-    { id: 'hellnah',  file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/hell-nah.geojson', color: '#e74c3c' }  // red
+    { id: 'fav',  label: 'Love It! ☕',    file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/fav.geojson',      color: '#2ecc71' }, // green
+    { id: 'yeee',  label: 'Pretty Good 👍',   file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/yeee.geojson',     color: '#3498db' }, // blue
+    { id: 'meh',  label: 'It’s Okay 😐',    file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/meh.geojson',      color: '#f1c40f' }, // yellow
+    { id: 'nah', label: 'Not Great 👎',     file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/nah.geojson',      color: '#e67e22' }, // orange
+    { id: 'hellnah', label: 'Never Again 💀', file: 'https://raw.githubusercontent.com/ZhexinTong/Coffeemap/refs/heads/main/pt-coffee-ratings/hell-nah.geojson', color: '#e74c3c' }  // red
   ];
 
   // loop through each layer to add it to the map
@@ -75,10 +75,10 @@ map.on('load', function() {
   const panel = document.getElementById('layer-controls');
 
   // Build a checkbox for each layer
-  layers.forEach(({ id, color }) => {
+  layers.forEach(({ id, color, label }) => {
     const layerId = `${id}-layer`;
 
-    const label = document.createElement('label');
+    const row = document.createElement('label');
 
     const swatch = document.createElement('span');
     swatch.className = 'swatch';
@@ -94,12 +94,12 @@ map.on('load', function() {
     });
 
     const text = document.createElement('span');
-    text.textContent = id; // label text (e.g., fav, yeee, meh)
+    text.textContent = label; // label text (e.g., fav, yeee, meh)
 
-    label.appendChild(swatch);
-    label.appendChild(checkbox);
-    label.appendChild(text);
-    panel.appendChild(label);
+    row.appendChild(swatch);
+    row.appendChild(checkbox);
+    row.appendChild(text);
+    panel.appendChild(row);
   });
 
 
