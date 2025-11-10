@@ -5,3 +5,36 @@ const map = new mapboxgl.Map({
   center: [-122.2748, 37.8725], // starting position [lng, lat]. Note that lat must be set between -90 and 90
   zoom: 9 // starting zoom,
     });
+
+map.on('load', function() {
+  const layers = [
+    { id: 'fav',      file: 'pt-coffee-ratings/fav.geojson',      color: '#2ecc71' }, // green
+    { id: 'yeee',     file: 'pt-coffee-ratings/yeee.geojson',     color: '#3498db' }, // blue
+    { id: 'meh',      file: 'pt-coffee-ratings/meh.geojson',      color: '#f1c40f' }, // yellow
+    { id: 'nah',      file: 'pt-coffee-ratings/nah.geojson',      color: '#e67e22' }, // orange
+    { id: 'hellnah',  file: 'pt-coffee-ratings/hell-nah.geojson', color: '#e74c3c' }  // red
+  ];
+
+  // loop through each layer to add it to the map
+  layers.forEach(({ id, file, color }) => {
+    map.addSource(`${id}-src`, {
+      type: 'geojson',
+      data: file // relative path since geojson files are in same folder
+    });
+
+    map.addLayer({
+      id: `${id}-layer`,
+      type: 'circle',
+      source: `${id}-src`,
+      paint: {
+        'circle-radius': 6,
+        'circle-color': color,
+        'circle-stroke-color': '#ffffff',
+        'circle-stroke-width': 1
+      },
+      layout: {
+        visibility: 'visible'
+      }
+    });
+  });
+});
