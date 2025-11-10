@@ -1,33 +1,518 @@
 {
-"type": "FeatureCollection",
-"name": "Yeee",
-"features": [
-{ "type": "Feature", "properties": { "Name": "CoRo Coffee Room" }, "geometry": { "type": "Point", "coordinates": [ -122.2972583, 37.8625, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "modern coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.2736951, 37.8048569, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Artís Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3009042, 37.8715934, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "MY Coffee Roastery" }, "geometry": { "type": "Point", "coordinates": [ -122.2731315, 37.8707119, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "SIGNAL Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.282391, 37.8913733, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Blue Bottle Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3939851, 37.7961181, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Temple Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -121.7393996, 38.5447331, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "35 North Coffee" }, "geometry": { "type": "Point", "coordinates": [ -105.9390983, 35.6868433, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Red Bay Coffee Headquarters & Cafe" }, "geometry": { "type": "Point", "coordinates": [ -122.225901, 37.777945, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Kaigo Coffee Room" }, "geometry": { "type": "Point", "coordinates": [ -74.0005181, 40.7186754, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Devoción" }, "geometry": { "type": "Point", "coordinates": [ -73.9715748, 40.757996, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Four Barrel Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.4217806, 37.7670234, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Red Bay Coffee Ferry Building" }, "geometry": { "type": "Point", "coordinates": [ -122.3931881, 37.7956605, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Old World Coffee Lab - Midtown" }, "geometry": { "type": "Point", "coordinates": [ -119.811687, 39.5199323, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Hyperion Coffee Co - Ann Arbor" }, "geometry": { "type": "Point", "coordinates": [ -83.749192, 42.2794297, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Café Hagen (Café and Roastery)" }, "geometry": { "type": "Point", "coordinates": [ -122.3473877, 47.6263905, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Milstead & Co." }, "geometry": { "type": "Point", "coordinates": [ -122.347602, 47.6494077, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Home Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.4058748, 37.7912579, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "WEEKENDERS COFFEE TOMINOKOJI" }, "geometry": { "type": "Point", "coordinates": [ 135.7644831, 35.0067836, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Go Go Coffee" }, "geometry": { "type": "Point", "coordinates": [ 135.733437, 35.0387386, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Highwire Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.2094856, 37.826439, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Temple Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -121.4724262, 38.5639177, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Temple Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -121.4951001, 38.5803227, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Plata Coffee" }, "geometry": { "type": "Point", "coordinates": [ -106.6670644, 35.1014384, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Highwire Coffee Roasters" }, "geometry": { "type": "Point", "coordinates": [ -122.2518515, 37.8436036, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "The Coffee Movement" }, "geometry": { "type": "Point", "coordinates": [ -122.4102942, 37.7947671, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Brewja Coffee, Inc" }, "geometry": { "type": "Point", "coordinates": [ -122.2702899, 37.803843, 0.0 ] } }
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2972583 37.8625)",
+        "name": "CoRo Coffee Room",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=CoRo%20Coffee%20Room%20Berkeley",
+        "Addresses": "CoRo Coffee Room, 2322 Fifth Street, Berkeley, CA 94710, United States of America",
+        "City ": "Berkeley",
+        "website": "http://www.corocoffeeroom.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2972583,
+          37.8625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2736951 37.8048569)",
+        "name": "modern coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=modern%20coffee%20Oakland",
+        "Addresses": "Modern Coffee, 1300 Clay Street, Oakland, CA 94612, United States of America",
+        "City ": "Oakland",
+        "website": "http://www.moderncoffeeoakland.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2736951,
+          37.8048569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.3009042 37.87159339999999)",
+        "name": "Artís Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Art%C3%ADs%20Coffee%20Berkeley",
+        "Addresses": "Artís Coffee, 4th Street Shops, 1717 Fourth Street, Berkeley, CA 94710, United States of America",
+        "City ": "Berkeley",
+        "website": "http://www.artiscoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3009042,
+          37.8715934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2731315 37.8707119)",
+        "name": "MY Coffee Roastery",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=MY%20Coffee%20Roastery%20Berkeley",
+        "Addresses": "MY Coffee Roastery, 2080 Martin Luther King Junior Way, Berkeley, CA 94704, United States of America",
+        "City ": "Berkeley",
+        "website": "https://www.mycoffeeroastery.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2731315,
+          37.8707119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.282391 37.8913733)",
+        "name": "SIGNAL Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=SIGNAL%20Coffee%20Roasters%20Berkeley",
+        "Addresses": "Signal Coffee, 1707 Solano Avenue, Berkeley, CA 94707, United States of America",
+        "City ": "Berkeley",
+        "website": "https://signalcoffee.com/?shpxid=44eda537-1d69-4ab5-99c5-f248dd9fe2c0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282391,
+          37.8913733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.3939851 37.7961181)",
+        "name": "Blue Bottle Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Blue%20Bottle%20Coffee%20San%20Francisco",
+        "Addresses": "San Francisco Ferry Building, 1 Ferry Plaza, San Francisco, CA 94111, United States of America",
+        "City ": "San Francisco",
+        "website": "https://bluebottlecoffee.com/us/eng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3939851,
+          37.7961181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-121.7393996 38.5447331)",
+        "name": "Temple Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Temple%20Coffee%20Roasters%20Davis",
+        "Addresses": "Temple Coffee, 230 G Street, Davis, CA 95616, United States of America",
+        "City ": "Davis",
+        "website": "https://templecoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7393996,
+          38.5447331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-105.9390983 35.68684329999999)",
+        "name": "35 North Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=35%20North%20Coffee%20Santa%20Fe",
+        "Addresses": "East San Francisco Street, Santa Fe, NM 87501, United States of America",
+        "City ": "Santa Fe",
+        "website": "https://santafecoffeeshop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.9390983,
+          35.6868433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.225901 37.777945)",
+        "name": "Red Bay Coffee Headquarters & Cafe",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Red%20Bay%20Coffee%20Headquarters%20%26%20Cafe%20Oakland",
+        "Addresses": "Red Bay Coffee Roasters, 3136 International Boulevard, Oakland, CA 94601, United States of America",
+        "City ": "Oakland",
+        "website": "https://www.redbaycoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.225901,
+          37.777945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-74.0005181 40.71867539999999)",
+        "name": "Kaigo Coffee Room",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Kaigo%20Coffee%20Room%20New%20York",
+        "Addresses": "Kaigo Coffee Room, 120C Lafayette Street, New York, NY 10013, United States of America",
+        "City ": "New York",
+        "website": "https://www.kaigocoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0005181,
+          40.7186754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-73.9715748 40.75799600000001)",
+        "name": "Devoción",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Devoci%C3%B3n%20New%20York",
+        "Addresses": "Lexington Avenue & East 52nd Street, Lexington Avenue, New York, NY 10154, United States of America",
+        "City ": "New York",
+        "website": "https://www.devocion.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9715748,
+          40.757996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.4217806 37.7670234)",
+        "name": "Four Barrel Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Four%20Barrel%20Coffee%20San%20Francisco",
+        "Addresses": "375 Valencia Street, San Francisco, CA 94143, United States of America",
+        "City ": "San Francisco",
+        "website": "https://www.fourbarrelcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4217806,
+          37.7670234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.3931881 37.7956605)",
+        "name": "Red Bay Coffee Ferry Building",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Red%20Bay%20Coffee%20Ferry%20Building%20San%20Francisco",
+        "Addresses": "San Francisco Ferry Building, 1 Ferry Plaza, San Francisco, CA 94111, United States of America",
+        "City ": "San Francisco",
+        "website": "https://www.redbaycoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3931881,
+          37.7956605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-119.811687 39.5199323)",
+        "name": "Old World Coffee Lab - Midtown",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Old%20World%20Coffee%20Lab%20-%20Midtown%20Reno",
+        "Addresses": "Old World Coffee Lab, 102 California Avenue, Reno, NV 89501, United States of America",
+        "City ": "Reno",
+        "website": "https://oldworldcoffeeroasters.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.811687,
+          39.5199323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-83.749192 42.2794297)",
+        "name": "Hyperion Coffee Co - Ann Arbor",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Hyperion%20Coffee%20Co%20-%20Ann%20Arbor%20Ann%20Arbor",
+        "Addresses": "Hyperion Coffee, 111 West Liberty Street, Ann Arbor, MI 48103, United States of America",
+        "City ": "Ann Arbor",
+        "website": "https://www.hyperioncoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.749192,
+          42.2794297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.3473877 47.6263905)",
+        "name": "Café Hagen (Café and Roastery)",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Hagen%20%28Caf%C3%A9%20and%20Roastery%29%20Seattle",
+        "Addresses": "Hagen, 800 5th Avenue North, Seattle, WA 98109, United States of America",
+        "City ": "Seattle",
+        "website": "https://www.cafehagen.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3473877,
+          47.6263905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.347602 47.6494077)",
+        "name": "Milstead & Co.",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Milstead%20%26%20Co.%20Seattle",
+        "Addresses": "Milstead & Co., 754 North 34th Street, Seattle, WA 98103, United States of America",
+        "City ": "Seattle",
+        "website": "https://milsteadandco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.347602,
+          47.6494077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.4058748 37.7912579)",
+        "name": "Home Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Home%20Coffee%20Roasters%20San%20Francisco",
+        "Addresses": "Grant Plaza, Grant Avenue, San Francisco, CA 94108, United States of America",
+        "City ": "San Francisco",
+        "website": "homecoffeesf.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4058748,
+          37.7912579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (135.7644831 35.0067836)",
+        "name": "WEEKENDERS COFFEE TOMINOKOJI",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=WEEKENDERS%20COFFEE%20TOMINOKOJI%20Japan",
+        "Addresses": "Japan, 〒604-8064 Kyoto, Nakagyo Ward, Honeyanocho, 560 離れ",
+        "City ": "Japan",
+        "website": "https://www.weekenderscoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7644831,
+          35.0067836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (135.733437 35.03873859999999)",
+        "name": "Go Go Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Go%20Go%20Coffee%20Japan",
+        "Addresses": "Japan, 〒603-8372 Kyoto, Kita Ward, Kinugasa Kaidocho, 13 13番地",
+        "City ": "Japan",
+        "website": "https://www.instagram.com/gogocoffee_kyoto/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.733437,
+          35.0387386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2094856 37.826439)",
+        "name": "Highwire Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Highwire%20Coffee%20Roasters%20Oakland",
+        "Addresses": "Highwire Coffee, 2051 Mountain Boulevard, Oakland, CA 94611, United States of America",
+        "City ": "Oakland",
+        "website": "https://www.highwirecoffee.com/pages/locations/rockridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2094856,
+          37.826439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-121.4724262 38.5639177)",
+        "name": "Temple Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Temple%20Coffee%20Roasters%20Sacramento",
+        "Addresses": "Temple Coffee Roasters, S Street, Sacramento, CA 95816, United States of America",
+        "City ": "Sacramento",
+        "website": "https://templecoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4724262,
+          38.5639177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-121.4951001 38.5803227)",
+        "name": "Temple Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Temple%20Coffee%20Roasters%20Sacramento",
+        "Addresses": "Temple Coffee, 9th Street, Sacramento, CA 95814, United States of America",
+        "City ": "Sacramento",
+        "website": "https://templecoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4951001,
+          38.5803227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-106.6670644 35.1014384)",
+        "name": "Plata Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Plata%20Coffee%20Albuquerque",
+        "Addresses": "8325 2nd St NW, Los Ranchos De Albuquerque, NM 87114",
+        "City ": "Albuquerque",
+        "website": "http://www.platacoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6670644,
+          35.1014384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2518515 37.8436036)",
+        "name": "Highwire Coffee Roasters",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Highwire%20Coffee%20Roasters%20Oakland",
+        "Addresses": "Market Hall Bakery, 5618 Shafter Avenue, Oakland, CA 94168, United States of America",
+        "City ": "Oakland",
+        "website": "https://www.highwirecoffee.com/pages/locations/rockridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2518515,
+          37.8436036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.4102942 37.7947671)",
+        "name": "The Coffee Movement",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=The%20Coffee%20Movement%20San%20Francisco",
+        "Addresses": "The Coffee Movement, 1030 Washington Street, San Francisco, CA 94108, United States of America",
+        "City ": "San Francisco",
+        "website": "https://www.thecoffeemovement.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4102942,
+          37.7947671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2702899 37.803843)",
+        "name": "Brewja Coffee",
+        "description": "Inc",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Brewja%20Coffee%20Oakland",
+        "Addresses": "409 14th Street, Oakland, CA 94612, United States of America",
+        "City ": "Oakland",
+        "website": "http://www.brewjacoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2702899,
+          37.803843
+        ]
+      }
+    }
+  ]
 }

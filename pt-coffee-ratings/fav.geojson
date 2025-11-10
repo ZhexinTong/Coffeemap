@@ -1,12 +1,119 @@
 {
-"type": "FeatureCollection",
-"name": "Fav",
-"features": [
-{ "type": "Feature", "properties": { "Name": "Sightglass Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.4084543, 37.7770356, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "The Crown: Royal Coffee Lab & Tasting Room" }, "geometry": { "type": "Point", "coordinates": [ -122.2651488, 37.8144975, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Devoción" }, "geometry": { "type": "Point", "coordinates": [ -73.989113, 40.739111, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "KOFFEE MAMEYA (K11 MUSEA)" }, "geometry": { "type": "Point", "coordinates": [ 114.1745832, 22.2943478, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Glitch Coffee and Roasters GINZA" }, "geometry": { "type": "Point", "coordinates": [ 139.7686324, 35.6689171, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Saint Frank Coffee" }, "geometry": { "type": "Point", "coordinates": [ -122.3914176, 37.7899754, 0.0 ] } }
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.4084543 37.7770356)",
+        "name": "Sightglass Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Sightglass%20Coffee%20San%20Francisco",
+        "Addresses": "268;270 7th Street, San Francisco, CA 94103, United States of America",
+        "City ": "San Francisco",
+        "website": "https://sightglasscoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4084543,
+          37.7770356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.2651488 37.8144975)",
+        "name": "The Crown: Royal Coffee Lab & Tasting Room",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=The%20Crown%3A%20Royal%20Coffee%20Lab%20%26%20Tasting%20Room%20Oakland",
+        "Addresses": "The Crown, 2523 Broadway, Oakland, CA 94612, United States of America",
+        "City ": "Oakland",
+        "website": "https://events.royalcoffee.com/events"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2651488,
+          37.8144975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-73.989113 40.739111)",
+        "name": "Devoción",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Devoci%C3%B3n%20New%20York",
+        "Addresses": "25 East 20th Street, New York, NY 10010, United States of America",
+        "City ": "New York",
+        "website": "https://www.devocion.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989113,
+          40.739111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (114.1745832 22.2943478)",
+        "name": "KOFFEE MAMEYA (K11 MUSEA)",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=KOFFEE%20MAMEYA%20%28K11%20MUSEA%29%20Hong%20Kong",
+        "Addresses": "B217, K11 Musea, Victoria Dockside, Tsim Sha Tsui, Hong Kong",
+        "City ": "Hong Kong",
+        "website": "https://koffee-mameya.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1745832,
+          22.2943478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (139.7686324 35.66891709999999)",
+        "name": "Glitch Coffee and Roasters GINZA",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Glitch%20Coffee%20and%20Roasters%20GINZA%20Japan",
+        "Addresses": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 4 Chome−14−8 VORT銀座イーストIII 1階",
+        "City ": "Japan",
+        "website": "https://glitchcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7686324,
+          35.6689171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "WKT": "POINT (-122.3914176 37.7899754)",
+        "name": "Saint Frank Coffee",
+        "description": "",
+        "hyperlink": "https://www.google.com/maps/search/?api=1&query=Saint%20Frank%20Coffee%20San%20Francisco",
+        "Addresses": "120 Folsom St, San Francisco, CA 94105",
+        "City ": "San Francisco",
+        "website": "http://www.saintfrankcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3914176,
+          37.7899754
+        ]
+      }
+    }
+  ]
 }
