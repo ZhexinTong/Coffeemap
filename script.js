@@ -40,7 +40,22 @@ map.on('load', function() {
 
 
   map.on('click', 'points-layer', (e) => {
+      // Copy coordinates array
       const coordinates = e.features[0].geometry.coordinates.slice();
       const properties = e.features[0].properties;
+
+      // Create popup content using the actual data properties
+      const popupContent = `
+        <div>
+          <h3>${properties.name}</h3>
+          ${properties["Addresses"] ? `<p><strong>Address:</strong> ${properties["Addresses"]}</p>` : ''}
+          ${properties["City "] ? `<p><strong>City:</strong> ${properties["City "]}</p>` : ''}
+          ${properties.website ? `<p><a href="${properties.website}" target="_blank">Website</a></p>` : ''}
+          ${properties.hyperlink ? `<p><a href="${properties.hyperlink}" target="_blank">View on Google Maps</a></p>` : ''}
+          ${properties.description ? `<p><strong>Notes:</strong> ${properties.description}</p>` : ''}
+        </div>
+      `;
+      // Adding the pop up to the map
+
  });
 });
