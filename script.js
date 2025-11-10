@@ -38,7 +38,7 @@ map.on('load', function() {
     });
 
     // Add click event for popups
-    map.on('click', 'points-layer', (e) => {
+    map.on('click', `${id}-layer`, (e) => {
       const coordinates = e.features[0].geometry.coordinates.slice();
       const properties = e.features[0].properties;
 
@@ -49,7 +49,7 @@ map.on('load', function() {
         ${properties.Addresses ? `<p><strong>Address:</strong> ${properties.Addresses}</p>` : ''}
         ${properties.City ? `<p><strong>City:</strong> ${properties.City}</p>` : ''}
         ${properties.website ? `<p><strong>Website:</strong> <a href="${properties.website}" target="_blank">${properties.website}</a></p>` : ''}
-        ${properties.hyperlink ? `<p><a href="${properties.hyperlink}" target="_blank">Open in Google</a></p>` : ''}
+        ${properties.hyperlink ? `<p><a href="${properties.hyperlink}" target="_blank">Open in Google Map</a></p>` : ''}
         ${!properties.Addresses && !properties.City && !properties.website && !properties.hyperlink ? '<p>No additional info available.</p>' : ''}
       </div>
     `;    
@@ -62,5 +62,13 @@ map.on('load', function() {
     });
 
   });
+ // Change cursor to pointer when hovering over points
+    map.on('mouseenter', 'points-layer', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
 
+    // Change cursor back when leaving points
+    map.on('mouseleave', 'points-layer', () => {
+        map.getCanvas().style.cursor = '';
+    });
 });
