@@ -68,3 +68,34 @@ h1 {
   transform: scale(1.1);
   accent-color: #625af2; /* modern purple-blue toggle */
 }
+
+
+/* Handle long links gracefully */
+.mapboxgl-popup-content a {
+  color: #0077cc;
+  text-decoration: none;
+  word-break: break-all;         /* breaks long continuous URLs */
+  overflow-wrap: anywhere;       /* ensures full wrapping support */
+  display: inline-block;         /* allows wrapping properly */
+}
+
+/* move the Mapbox logo and attribution up a bit */
+.mapboxgl-ctrl-bottom-left {
+  bottom: 28px !important;  /* pushes the logo up — adjust as needed */
+  left: 8px;
+}
+
+#map-credit-overlay {
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #333;
+  font-family: system-ui, Arial, sans-serif;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+}
+

@@ -50,7 +50,7 @@ map.on('load', function() {
         ${properties.Addresses ? `<p><strong>Address:</strong> ${properties.Addresses}</p>` : ''}
         ${properties.City ? `<p><strong>City:</strong> ${properties.City}</p>` : ''}
         ${properties.website ? `<p><strong>Website:</strong> <a href="${properties.website}" target="_blank">${properties.website}</a></p>` : ''}
-        ${properties.hyperlink ? `<p><a href="${properties.hyperlink}" target="_blank">Open in Google Map</a></p>` : ''}
+        ${properties.hyperlink ? `<p><strong><a href="${properties.hyperlink}" target="_blank">Open in Google Map</a><strong></p>` : ''}
         ${!properties.Addresses && !properties.City && !properties.website && !properties.hyperlink ? '<p>No additional info available.</p>' : ''}
       </div>
     `;    
