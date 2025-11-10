@@ -37,6 +37,7 @@ map.on('load', function() {
       }
     });
 
+
     // Add click event for popups
     map.on('click', `${id}-layer`, (e) => {
       const coordinates = e.features[0].geometry.coordinates.slice();
@@ -70,6 +71,35 @@ map.on('load', function() {
     map.on('mouseleave', `${id}-layer`, () => {
       map.getCanvas().style.cursor = '';
     });
+  });
+  const panel = document.getElementById('layer-controls');
+
+  // Build a checkbox for each layer
+  layers.forEach(({ id, color }) => {
+    const layerId = `${id}-layer`;
+
+    const label = document.createElement('label');
+
+    const swatch = document.createElement('span');
+    swatch.className = 'swatch';
+    swatch.style.background = color;
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    // initial state: visible unless set to 'none'
+    checkbox.checked = (map.getLayoutProperty(layerId, 'visibility') !== 'none');
+
+    checkbox.addEventListener('change', () => {
+      map.setLayoutProperty(layerId, 'visibility', checkbox.checked ? 'visible' : 'none');
+    });
+
+    const text = document.createElement('span');
+    text.textContent = id; // label text (e.g., fav, yeee, meh)
+
+    label.appendChild(swatch);
+    label.appendChild(checkbox);
+    label.appendChild(text);
+    panel.appendChild(label);
   });
 
 
